@@ -1,15 +1,41 @@
-
 /* Reset */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
 * {
-    margin-top: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-/* Body Style */
 body {
-    background-image: url("../img/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Manjari', sans-serif;
-}
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* Fonts */
+/* Colors */
+/* Fonts Style */
+/* font Size */
+/* Spacing */
+.nav-link {
+  color: #fff; }
+
+#navbarNav,
+.container,
+.container-fluid,
+.nav__logo {
+  background-color: #2b3456; }
+
+.content__title {
+  font-family: "Nunito", sans-serif;
+  font-size: 5.2em;
+  color: #2b3456;
+  text-align: center;
+  margin-top: 2rem; }
+
+/* Footer Style */
+.footer__container {
+  background-color: #2b3456;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center; }
